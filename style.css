@@ -1,0 +1,87 @@
+body {
+  background-color: rgba(162, 167, 95, 0.219);
+}
+header {
+  margin-top: -8px;
+  padding: 0;
+  margin-right: -9px;
+  margin-left: -9px;
+  background-color: white;
+  height: 52px;
+}
+#linkedin_logo {
+  height: 45px;
+  margin-left: 190px;
+}
+.nav_img > img {
+  height: 20px;
+  margin-right: 55px;
+}
+#profile_img {
+  width: 25px;
+  height: 23px;
+  border-radius: 50%;
+}
+.nav_img {
+  margin-top: 2px;
+  padding: 0;
+  margin-left: 200px;
+  display: inline-block;
+}
+#job_img{
+  margin-right: 50px;
+}
+.nav_div {
+  display: flex;
+  padding-top: 2px;
+}
+#mssg_img {
+  margin-right: 56px;
+}
+#home {
+  margin-left: -35.4rem;
+  padding-top: 1.8rem;
+  text-decoration: none;
+  /* color: rgb(75, 71, 71); */
+}
+#network {
+  margin-left: 1.8rem;
+  padding-top: 1.8rem;
+  text-decoration: none;
+  /* color: rgb(75, 71, 71); */
+}
+#jobs {
+  margin-left: 1.9rem;
+  padding-top: 1.8rem;
+  text-decoration: none;
+  /* color: rgb(75, 71, 71); */
+}
+#messaging {
+  margin-left: 1.75rem;
+  padding-top: 1.8rem;
+  text-decoration: none;
+  /* color: rgb(75, 71, 71); */
+}
+#notifications {
+  margin-left: 0.7rem;
+  padding-top: 1.8rem;
+  text-decoration: none;
+  /* color: rgb(75, 71, 71); */
+}
+#me {
+  margin-left: 1.5rem;
+  padding-top: 1.8rem;
+  text-decoration: none;
+  /* color: rgb(75, 71, 71); */
+}
+#work {
+  margin-left: 1.5rem;
+  padding-top: 1.8rem;
+  text-decoration: none;
+  /* color: rgb(75, 71, 71); */
+}
+a{
+  font-family: var(--artdeco-reset-typography-font-family-sans);
+  font-size: 0.9rem;
+  color: rgb(117, 110, 110);
+}
