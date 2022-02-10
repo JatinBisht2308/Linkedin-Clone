@@ -2,12 +2,20 @@ body {
   background-color: rgba(162, 167, 95, 0.219);
 }
 header {
-  margin-top: -8px;
+  margin-top: 0px;
   padding: 0;
   margin-right: -9px;
   margin-left: -9px;
   background-color: white;
   height: 52px;
+  position: fixed;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav {
+  position: 0;
+  position: fixed;
 }
 #linkedin_logo {
   height: 45px;
@@ -28,7 +36,7 @@ header {
   margin-left: 200px;
   display: inline-block;
 }
-#job_img{
+#job_img {
   margin-right: 50px;
 }
 .nav_div {
@@ -39,7 +47,7 @@ header {
   margin-right: 56px;
 }
 #home {
-  margin-left: -35.4rem;
+  margin-left: -35rem;
   padding-top: 1.8rem;
   text-decoration: none;
   /* color: rgb(75, 71, 71); */
@@ -51,7 +59,7 @@ header {
   /* color: rgb(75, 71, 71); */
 }
 #jobs {
-  margin-left: 1.9rem;
+  margin-left: 1.8rem;
   padding-top: 1.8rem;
   text-decoration: none;
   /* color: rgb(75, 71, 71); */
@@ -63,25 +71,173 @@ header {
   /* color: rgb(75, 71, 71); */
 }
 #notifications {
-  margin-left: 0.7rem;
+  margin-left: 1rem;
   padding-top: 1.8rem;
   text-decoration: none;
   /* color: rgb(75, 71, 71); */
 }
 #me {
-  margin-left: 1.5rem;
+  margin-left: 1.9rem;
   padding-top: 1.8rem;
   text-decoration: none;
   /* color: rgb(75, 71, 71); */
+}
+.vl {
+  border-left: 2px solid #bbbebb;
+  height: 51px;
+  margin-left: 2rem;
 }
 #work {
-  margin-left: 1.5rem;
+  margin-left: 1.45rem;
   padding-top: 1.8rem;
   text-decoration: none;
   /* color: rgb(75, 71, 71); */
 }
-a{
+#promotion {
+  text-decoration: none;
+  color: rgb(165, 136, 42);
+  margin-top: 6px;
+  margin-left: 33px;
+  font-weight: 400;
+}
+a:hover {
+  color: black;
+}
+#promotion:hover {
+  text-decoration: underline;
+}
+a {
   font-family: var(--artdeco-reset-typography-font-family-sans);
   font-size: 0.9rem;
   color: rgb(117, 110, 110);
+}
+.mainbody {
+  display: flex;
+  margin-top: 3.3rem;
+  margin-left: 12vw;
+}
+.MyPostsContainer {
+  background-color: white;
+  width: 33.75rem;
+  height: 7.25rem;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1.75vw;
+  border-radius: 7px;
+  margin-top: 1.7rem;
+}
+.profile_box_left {
+  height: 22.75rem;
+  width: 14rem;
+  background-color: white;
+  margin-top: 1.67rem;
+  border-radius: 6px;
+}
+.discover_more {
+  height: 22.75rem;
+  width: 14rem;
+  background-color: white;
+  margin-top: 25rem;
+  margin-left: -14rem;
+  border-radius: 6px;
+  display: flex;
+}
+.hl {
+  border-top: 2px solid #bbbebb;
+  width: 28rem;
+  margin-left: -33.7rem;
+  display: inline-block;
+  margin-top: 10rem;
+}
+.sortby {
+  font-family: inherit;
+  color: #8f928f;
+  margin-left: 0.5rem;
+  margin-top: 9.3rem;
+  display: block;
+}
+.post1 {
+  background-color: white;
+  width: 33.75rem;
+  height: 42.25rem;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -33.3rem;
+  border-radius: 7px;
+  margin-top: 10.8rem;
+}
+.linkedin_News {
+  background-color: white;
+  width: 19.675rem;
+  height: 20.125rem;
+  border-radius: 6px;
+  margin-left: 2rem;
+  margin-top: 1.7rem;
+}
+.linkedin_add {
+  background-color: white;
+  width: 19.675rem;
+  height: 17.125rem;
+  border-radius: 6px;
+  margin-left: -19.6rem;
+  margin-top: 22.7rem;
+  display: flex;
+}
+#promotion_img {
+  border-radius: 6px;
+}
+.footer {
+  margin-left: 66vw;
+  margin-top: -12rem;
+  /* display: inline-block; */
+}
+#footer_logo {
+  height: 2.5vh;
+  padding-top: 3rem;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  font-style: inherit;
+}
+a {
+  text-decoration: none;
+}
+.footer_list1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-left: -1rem;
+  width: 250px;
+}
+.footer_list2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -1rem;
+  width: 250px;
+}
+.footer_list3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -1rem;
+  width: 250px;
+}
+.footer_list4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -1rem;
+  width: 250px;
+}
+.end_footer {
+  margin-left: 1rem;
+}
+div>ul>a>li{
+  margin-right: 8px;
 }
