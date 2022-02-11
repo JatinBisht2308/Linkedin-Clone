@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(162, 167, 95, 0.219);
+  background-color: rgb(240, 240, 234);
 }
 header {
   margin-top: 0px;
@@ -102,9 +102,11 @@ nav {
 }
 a:hover {
   color: black;
+  cursor: pointer;
 }
 #promotion:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 a {
   font-family: var(--artdeco-reset-typography-font-family-sans);
@@ -113,7 +115,7 @@ a {
 }
 .mainbody {
   display: flex;
-  margin-top: 3.3rem;
+  margin-top: 1.5rem;
   margin-left: 12vw;
 }
 .MyPostsContainer {
@@ -240,4 +242,124 @@ a {
 }
 div>ul>a>li{
   margin-right: 8px;
+}
+#success{
+  width: 14rem;
+  height: 6rem;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+}
+#dp{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 3px solid white !important;
+  margin-left: 4.2rem;
+  margin-top: -46px;
+  margin-bottom: 22px;
+  text-align: center;
+}
+.name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -36px;
+  margin-left: -0.8rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.skills{
+  font-size:12px;
+  color:#8f928f;
+  text-align: center;
+  font-family:  sans-serif;
+  margin-top: -10px;
+}
+.hl_left_profile{
+  border-top: 0.1px solid #e1e4e1;
+  width: 14rem;
+  margin-left: 0rem;
+  display: inline-block;
+  margin: 0;
+}
+h4:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.medium{
+  margin-left: 5px;
+  padding: 4px;
+  margin-bottom: 5px;
+  font-size: 11.5px;
+  font-family: sans-serif;
+  font-weight: 1;
+}
+.medium>p{
+  color: #757775;
+  margin-left: 4px;
+}
+.hl_left_profile2{
+  border-top: 0.1px solid #e1e4e1;
+  width: 14rem;
+  margin-left: 0rem;
+  display: inline-block;
+  margin-bottom: 17px;
+}
+.medium2>p{
+  color: #757775;
+  margin-left: 5px;
+  padding: 4px;
+  margin-bottom: 5px;
+  font-size: 11.5px;
+  font-family: sans-serif;
+  font-weight: 1;
+}
+.medium2{
+  margin-top:-39px;
+  /* display: flex; */
+  align-items: center;
+  padding-bottom: 1px;
+  /* padding-top: 0.1px; */
+  height: 78.6px;
+}
+.medium2:hover{
+  background-color:#cccecc;
+  cursor: pointer;
+}
+#p_medium:hover{
+   background-color:#cccecc;
+   cursor: pointer;
+}
+#p_medium2:hover{
+  background-color:#cccecc;
+  cursor: pointer;
+}
+#gift{
+  width: 1rem;
+  margin-left: 1.3rem;
+}
+#gift:hover{
+  width: 1.2rem;
+}
+#tools
+{
+  margin-left: 10px;
+  margin-top: 17.5px;
+}
+#hired{
+  margin-left: 40px;
+  margin-top: -21.5px;
+  font-style: revert;
+  color: black;
+  font-size: 13px;
+}
+#free{
+  margin-left: 40px;
+  margin-top: -9.5px;
+  font-style: revert;
+  color: black;
+  font-size: 13px;
+}
+#hired1:hover{
+  text-decoration: underline;
 }
